@@ -1,0 +1,115 @@
+body {
+    background-color: #ffffff;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333; /* Changed text color to dark */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: beige;
+    padding: 50px 20px; /* Adjusted padding for responsiveness */
+    font-size: larger;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content */
+}
+
+.header h2 {
+    font-size: 32px;
+    font-style: italic;
+    text-align: center;
+    color: #000000; /* Changed text color to dark */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px; /* Reduced margin for better spacing */
+    margin-top: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color:black;
+    text-decoration: none;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #bbb7b7;
+    opacity: 0.8;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 20px auto; /* Added margin for spacing */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center; /* Center align text */
+}
+
+.about-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #cacaca;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: left; /* Adjusted text alignment */
+}
+
+.about-list {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about-list h3 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.about-list ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.about-list li {
+    margin-bottom: 8px;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px; /* Adjust spacing from content */
+}
+
+.footer-content {
+    color: #ffffff;
+    font-size: 14px;
+}
