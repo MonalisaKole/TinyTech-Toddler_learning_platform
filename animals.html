@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals</title>
+    <link rel="stylesheet" href="categories.css">
+</head>
+<body>
+	<script src="scripts/processing.js" type="text/javascript" defer></script>
+	<p id="transcription"></p>
+	<p id="transcriptionResult"></p>
+	
+	<audio id="yes">
+        <source src="audio/YES YES.wav" type="audio/wav">
+    </audio>
+	<audio id="tryAgain">
+        <source src="audio/tryAgain.wav" type="audio/wav">
+    </audio>
+
+   <audio id="tiger">
+        <source src="audio/This_is_a_tiger.wav" type="audio/wav">
+    </audio>
+	<audio id="lion">
+        <source src="audio/This is a lion.wav" type="audio/wav">
+    </audio>
+	<audio id="dog">
+        <source src="audio/dog.wav" type="audio/wav">
+    </audio>
+	<audio id="cat">
+        <source src="audio/cat.wav" type="audio/wav">
+    </audio>
+	<audio id="elephant">
+        <source src="audio/elephant.wav" type="audio/wav">
+    </audio>
+	
+    <div class="header"> 
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Categories</a>
+                    <ul class="dropdown-content">
+                        <li><a href="animals.html">Animals</a></li>
+                        <li><a href="shapes.html">Shapes</a></li>
+                        <li><a href="colours.html">Colours</a></li>
+                        <li><a href="seasons.html">Seasons</a></li>
+                        <li><a href="birds.html">Birds</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+        <h2>Animals</h2>
+        <div class="sections">
+            <div class="section">
+                <div class="section-content">
+                    <a onclick="startProcess('tiger')">
+                        <img class="section-image" src="images/tiger.png" alt="Sample Image">
+                    </a>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-content">
+                    <a onclick="startProcess('lion')">
+                        <img class="section-image" src="images/lion.jpg" alt="Sample Image">
+                    </a>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-content">
+                    <a onclick="startProcess('dog')">
+                        <img class="section-image" src="images/dog.jpg" alt="Sample Image">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="sections">
+            <div class="section">
+                <div class="section-content">
+                    <a onclick="startProcess('cat')">
+                        <img class="section-image" src="images/cat.jpg" alt="Sample Image">
+                    </a>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-content">
+                    <a onclick="startProcess('elephant')">
+                        <img class="section-image" src="images/elephant.jpg" alt="Sample Image">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
